@@ -4,12 +4,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
-  hr {
-    width: 100%;
-    border-top: 1px solid #eee;
-    border-radius: 1px;
-  }
 `;
 
 export const Strong = styled.p`
@@ -75,6 +69,9 @@ export const Line = styled.footer`
   column-gap: 8px;
   row-gap: 8px;
   flex-wrap: wrap;
+  margin-top: 10px;
+  padding-top: 4px;
+  border-top: 1px solid #f2f2f2;  
 
   li {
     position: relative;

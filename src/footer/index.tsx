@@ -30,8 +30,6 @@ export const Footer: React.FC<IFooter> = ({ data }) => {
           ))}
       </Body>
 
-      <hr />
-
       <Line>
         {data.others?.map((item) =>
           item.links.map((link, index) => (
